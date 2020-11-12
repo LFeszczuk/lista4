@@ -1,0 +1,11 @@
+#!/bin/sh
+clear
+x=1;
+while [ 1 ] ; do // nieskonczona pętla
+x=$[x+1]
+sleep 1
+done
+a) Po uruchomieniu programu bez komendy sleep program wyswietla się na szczycie listy top po dodaniu sleep juz nie
+b) Aby zmienić czas odświeżania mozna po uruchomieniu top  nacisnąć klawisz d i wpisać żądaną wartość
+
+zd2
